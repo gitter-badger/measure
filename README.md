@@ -13,6 +13,9 @@ The Android app is available in Alpha testing channel: https://play.google.com/a
 # Support
 Please email Siddharth Mathur (support@blackbuck.mobi) with any feedback
 
+# Acknowledgement
+* Maheima Kapur for the initial idea
+
 # Contributions welcome
 Merge requests/patches welcome on GitHub or on email :) 
 
