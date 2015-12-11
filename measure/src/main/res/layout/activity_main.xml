@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mobi.blackbuck.fastahmeasure.MainActivity">
+
+        <Button
+            android:layout_width="279dp"
+            android:layout_height="131dp"
+            android:text="@string/howz_the_internets"
+            android:id="@+id/howzMyInternet"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Checking internet quality..."
+            android:id="@+id/whatNetwork"
+            android:layout_below="@+id/howzMyInternet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textSize="14sp" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/congestion_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/whatNetwork"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/congestion_results_placeholder"
+            android:id="@+id/congestionText"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/speed_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/congestion_layout"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/speed_results_placeholder"
+            android:id="@+id/speedText"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/emailItButton"
+        android:src="@android:drawable/ic_dialog_email"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>
+

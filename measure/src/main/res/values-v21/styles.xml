@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="MeasureTheme" parent="@android:style/Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="android:colorPrimary">@color/measure_indigo_verylight</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="android:colorPrimaryDark">@color/measure_indigo_dark</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="android:colorAccent">@color/measure_pink_dark</item>
+        <item name="android:colorControlNormal">@color/measure_pink_dark</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+    </style>
+
+</resources>
